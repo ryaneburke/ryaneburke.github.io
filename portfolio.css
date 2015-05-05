@@ -1,0 +1,141 @@
+body {
+	font-size: 14px;
+	color: black;
+	font-family: monospace;
+	background-color: white;
+}
+
+header {
+	position: absolute;
+	top: 0;
+	left: 0;
+
+	width: 100%;
+	padding-left: 1em;
+
+	color: white;
+	background-color: black;
+	font-size: 20px;
+	text-align: left;
+	line-height: 3em;
+}
+
+/*------- LEFT HAND NAVIGATION --------*/
+nav {
+	float: left;
+	width: 15%;
+	margin: 5.25em 2em 0 1em;
+	top: 20px;
+	text-align: right;
+	max-width: 150px;
+}
+
+nav img {
+	width: 100%;
+	margin-bottom: .5em;
+
+}
+
+/*------- MAIN CONTENT AREA --------*/
+
+.main {
+	float: left;
+	width: 60%;
+	margin: 5em 2em 0 2em;
+	max-width: 750px;
+}
+
+/*------- PROJECT GRID AND WITHIN --------*/
+
+.projectgrid {
+	position: relative;
+	top: 50px;
+	height: 700px;
+	width: 700px;
+}
+
+.row {
+	clear: both;
+}
+
+.column {
+	margin: .25em;
+	width: 200px;
+	height: 200px;
+	float: left;
+	background-color: black;
+	position: relative;
+}
+
+.column:hover {
+	background-color: red;
+}
+
+h5 {
+	color: white;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	font-size: 14px;
+}
+
+/*------- FOOTER --------*/
+
+footer {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 20px;
+	background-color: red;
+	font-size: 8px;
+}
+
+/*------- LINKS --------*/
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	color: red;
+}
+
+.navlink {
+	font-weight: bold;
+	color: black;
+}
+
+.headlink {
+	color: white;
+	font-weight: normal;
+	font-size: 20px;
+}
+
+.headlink:visited {
+	text-decoration: none;
+}
+
+.footlink {
+	color: red;
+	text-decoration: none;
+}
+
+/*-------- ABOUT SECTION ONLY --------*/
+
+.highfive {
+	position: relative;
+	border: 2px dotted red;
+	top: 50px;
+	height: 700px;
+	width: 700px;
+	padding: .5em 0 0 .5em;
+	margin-bottom: 4em;
+}
+
+.highfive p {
+	color: red;
+	font-size: 10px;
+}
+
+
